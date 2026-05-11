@@ -13,8 +13,8 @@ const links = [
   },
   {
     label: "Email",
-    handle: "Johnkennedychinomso@email.com",
-    href: "mailto:johnkennedychinomso@email.com",
+    handle: "Johnkennedychinomso@gmail.com",
+    href: "mailto:johnkennedychinomso@gmail.com",
     color: "#39d353",
   },
 ];
