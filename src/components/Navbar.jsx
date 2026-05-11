@@ -27,7 +27,7 @@ export default function Navbar() {
           className="font-['Syne'] font-bold text-lg text-white tracking-tight"
         >
           <span className="text-[#00e5ff]">&lt;</span>
-          CHINOMSO
+          CHUKWUNOMSO
           <span className="text-[#00e5ff]">/&gt;</span>
         </a>
 
