@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;700;800&display=swap");
+@import "tailwindcss";
+
+:root {
+  --accent: #00e5ff;
+  --accent2: #7b61ff;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #080b10;
+  color: #cdd9e5;
+  font-family: "Space Mono", monospace;
+}
+
+::selection {
+  background: #00e5ff33;
+  color: #00e5ff;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #080b10;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e2a38;
+  border-radius: 10px;
+}
+
+/* Glowing accent line animation */
+@keyframes pulse-glow {
+  0%,
+  100% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.glow {
+  animation: pulse-glow 2.5s ease-in-out infinite;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-up {
+  animation: fadeUp 0.7s ease both;
+}
+
+.fade-up-2 {
+  animation: fadeUp 0.7s 0.15s ease both;
+}
+.fade-up-3 {
+  animation: fadeUp 0.7s 0.3s ease both;
+}
+.fade-up-4 {
+  animation: fadeUp 0.7s 0.45s ease both;
+}
