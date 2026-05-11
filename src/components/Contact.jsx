@@ -57,7 +57,7 @@ export default function Contact() {
               href={link.href}
               target="_blank"
               rel="noreferrer"
-              className="group border border-[#1e2a38] bg-[#0d1117] p-6 hover:border-[#00e5ff]/20 transition-all duration-300 flex flex-col gap-4"
+              className="group border border-[#1e2a38] bg-[#0d1117] p-6 hover:border-[#00e5ff]/20 transition-all duration-300 flex flex-col gap-4 "
             >
               <div className="flex items-center justify-between">
                 <span
@@ -70,7 +70,7 @@ export default function Contact() {
                   ↗
                 </span>
               </div>
-              <p className="text-white font-['Syne'] font-bold text-lg group-hover:text-[#00e5ff] transition-colors duration-300">
+              <p className="text-white font-['Syne'] font-bold text-lg group-hover:text-[#00e5ff] transition-colors duration-300 break-all">
                 {link.handle}
               </p>
             </a>
@@ -83,7 +83,7 @@ export default function Contact() {
             <p className="text-xs tracking-widest uppercase text-[#4d6072] mb-2">
               Prefer email?
             </p>
-            <p className="font-['Syne'] font-bold text-white text-xl">
+            <p className="font-['Syne'] font-bold text-white text-xl break-all">
               Johnkennedychinomso@email.com
             </p>
           </div>
