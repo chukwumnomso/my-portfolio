@@ -1,10 +1,13 @@
+import ecommerce from "../assets/ecommerce.png";
+
 const projects = [
   {
     number: "01",
     title: "E-Commerce Storefront",
+    image: ecommerce,
     description:
       "A modern e-commerce storefront with product listings, cart, checkout flow, and responsive design. Focused on clean UI and smooth user experience.",
-    tags: ["React", "Tailwind", "JavaScript", "CSS"],
+    tags: ["React", "Tailwind", "JavaScript", "Supabase"],
     live: "https://yourproject.com",
     github: "https://github.com/yourusername/project",
     featured: true,
@@ -42,37 +45,42 @@ export default function Projects() {
           </a>
         </div>
 
-        {/* Projects Grid */}
+        {/* Projects */}
         <div className="space-y-4">
           {projects.map((project) => (
             <div
               key={project.number}
-              className="group border border-[#1e2a38] bg-[#0d1117] hover:border-[#00e5ff]/20 hover:bg-[#0d1117] transition-all duration-500 p-6 md:p-8"
+              className="group border border-[#1e2a38] bg-[#0d1117] hover:border-[#00e5ff]/20 transition-all duration-500 overflow-hidden"
             >
-              <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
-                {/* Left */}
+              {/* Screenshot */}
+              <div className="relative w-full h-48 md:h-64 overflow-hidden border-b border-[#1e2a38]">
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700 opacity-70 group-hover:opacity-100"
+                />
+                {/* Overlay */}
+                <div className="absolute inset-0 bg-gradient-to-t from-[#0d1117] via-[#0d1117]/20 to-transparent" />
+                {project.featured && (
+                  <span className="absolute top-4 right-4 text-[10px] px-2 py-0.5 border border-[#00e5ff]/30 text-[#00e5ff] tracking-widest uppercase bg-[#0d1117]/80">
+                    Featured
+                  </span>
+                )}
+              </div>
+
+              {/* Info */}
+              <div className="p-6 md:p-8 flex flex-col md:flex-row md:items-center justify-between gap-6">
                 <div className="flex items-start gap-6 flex-1">
-                  {/* Number */}
                   <span className="font-['Syne'] font-extrabold text-4xl text-[#1e2a38] group-hover:text-[#00e5ff]/20 transition-colors duration-500 leading-none select-none">
                     {project.number}
                   </span>
-
-                  {/* Info */}
                   <div className="flex-1">
-                    <div className="flex items-center gap-3 mb-2">
-                      <h3 className="font-['Syne'] font-bold text-xl text-white group-hover:text-[#00e5ff] transition-colors duration-300">
-                        {project.title}
-                      </h3>
-                      {project.featured && (
-                        <span className="text-[10px] px-2 py-0.5 border border-[#00e5ff]/30 text-[#00e5ff] tracking-widest uppercase">
-                          Featured
-                        </span>
-                      )}
-                    </div>
+                    <h3 className="font-['Syne'] font-bold text-xl text-white group-hover:text-[#00e5ff] transition-colors duration-300 mb-2">
+                      {project.title}
+                    </h3>
                     <p className="text-sm text-[#cdd9e5]/50 leading-relaxed max-w-xl mb-4">
                       {project.description}
                     </p>
-                    {/* Tags */}
                     <div className="flex flex-wrap gap-2">
                       {project.tags.map((tag) => (
                         <span
@@ -86,7 +94,7 @@ export default function Projects() {
                   </div>
                 </div>
 
-                {/* Right — Links */}
+                {/* Links */}
                 <div className="flex items-center gap-4 md:flex-col md:items-end shrink-0">
                   <a
                     href={project.live}
