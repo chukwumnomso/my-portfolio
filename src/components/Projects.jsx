@@ -6,7 +6,7 @@ const projects = [
     title: "E-Commerce Storefront",
     image: ecommerce,
     description:
-      "A modern e-commerce storefront with product listings, cart, checkout flow, and responsive design. Focused on clean UI and smooth user experience.",
+      "A full-featured e-commerce storefront with user authentication, real products, cart, checkout flow, and a Supabase backend. Built with React and Tailwind CSS. Focused on clean UI and smooth user experience.",
     tags: ["React", "Tailwind", "JavaScript", "Supabase"],
     live: "https://shopwillstore.vercel.app",
     github: "https://github.com/chukwumnomso/shopwill-V2",
