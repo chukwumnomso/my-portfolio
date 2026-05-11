@@ -28,7 +28,7 @@ export default function About() {
           <div className="space-y-6 text-sm leading-relaxed text-[#cdd9e5]/70">
             <p>
               Hey! I'm{" "}
-              <span className="text-white font-bold">chinomso OKoro</span>, a
+              <span className="text-white font-bold">Chinomso OKoro</span>, a
               frontend developer based in{" "}
               <span className="text-white">owerri</span>. I specialize in
               building modern web applications using React, JavaScript, and
@@ -84,7 +84,7 @@ export default function About() {
 
             {/* Resume link */}
             <a
-              href="/resume.pdf"
+              href="/Okoro Chinomso Johnkennedy.pdf"
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center gap-2 text-xs text-[#00e5ff] border-b border-[#00e5ff]/30 hover:border-[#00e5ff] pb-0.5 transition-all duration-300 tracking-widest uppercase mt-4"

@@ -1,7 +1,7 @@
 const socials = [
   { label: "GitHub", href: "https://github.com/chukwumnomso" },
   { label: "LinkedIn", href: "https://linkedin.com/in/chukwumnomso" },
-  { label: "Twitter", href: "https://twitter.com/chukwumnomso" },
+  { label: "Twitter", href: "https://twitter.com/diamond_oj" },
 ];
 
 export default function Hero() {

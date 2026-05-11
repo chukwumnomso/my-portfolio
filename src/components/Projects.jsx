@@ -8,8 +8,8 @@ const projects = [
     description:
       "A modern e-commerce storefront with product listings, cart, checkout flow, and responsive design. Focused on clean UI and smooth user experience.",
     tags: ["React", "Tailwind", "JavaScript", "Supabase"],
-    live: "https://yourproject.com",
-    github: "https://github.com/yourusername/project",
+    live: "https://shopwillstore.vercel.app",
+    github: "https://github.com/chukwumnomso/project",
     featured: true,
   },
 ];
@@ -18,7 +18,7 @@ export default function Projects() {
   return (
     <section id="projects" className="relative py-32 px-6 overflow-hidden">
       {/* Background grid */}
-      <div className="absolute inset-0 bg-[linear-gradient(rgba(123,97,255,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(123,97,255,0.02)_1px,transparent_1px)] bg-[size:60px_60px]" />
+      <div className="absolute inset-0 bg-[linear-gradient(rgba(123,97,255,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(123,97,255,0.02)_1px,transparent_1px)] bg-size-[60px_60px]" />
 
       {/* Glow */}
       <div className="absolute top-1/2 right-0 w-96 h-96 bg-[#7b61ff]/5 rounded-full blur-3xl pointer-events-none" />
@@ -36,7 +36,7 @@ export default function Projects() {
             <span className="text-[#4d6072]">built & shipped.</span>
           </h2>
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/chukwumnomso"
             target="_blank"
             rel="noreferrer"
             className="text-xs text-[#4d6072] hover:text-[#00e5ff] tracking-widest uppercase transition-colors duration-300 border-b border-[#1e2a38] hover:border-[#00e5ff] pb-0.5 self-start md:self-auto"
