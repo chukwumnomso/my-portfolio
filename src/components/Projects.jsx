@@ -9,7 +9,7 @@ const projects = [
       "A modern e-commerce storefront with product listings, cart, checkout flow, and responsive design. Focused on clean UI and smooth user experience.",
     tags: ["React", "Tailwind", "JavaScript", "Supabase"],
     live: "https://shopwillstore.vercel.app",
-    github: "https://github.com/chukwumnomso/project",
+    github: "https://github.com/chukwumnomso/shopwill-V2",
     featured: true,
   },
 ];
