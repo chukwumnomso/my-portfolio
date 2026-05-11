@@ -28,11 +28,13 @@ export default function About() {
           <div className="space-y-6 text-sm leading-relaxed text-[#cdd9e5]/70">
             <p>
               Hey! I'm{" "}
-              <span className="text-white font-bold">Chinomso OKoro</span>, a
-              frontend developer based in{" "}
-              <span className="text-white">owerri</span>. I specialize in
-              building modern web applications using React, JavaScript, and
-              cutting-edge CSS.
+              <span className="text-white font-bold tracking-widest">
+                CHUKWUNOMSO
+              </span>
+              , a frontend developer based in{" "}
+              <span className="text-white tracking-widest">OWERRI</span>. I
+              specialize in building modern web applications using React,
+              JavaScript, and cutting-edge CSS.
             </p>
             <p>
               I care deeply about the details — the micro-interactions, the load

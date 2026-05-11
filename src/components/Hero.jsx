@@ -21,10 +21,10 @@ export default function Hero() {
         </p>
 
         {/* Name */}
-        <h1 className="fade-up-2 font-['Syne'] font-extrabold text-5xl md:text-7xl lg:text-8xl text-white leading-none tracking-tight mb-6">
+        <h1 className="fade-up-2 font-['Syne'] font-extrabold text-4xl md:text-7xl lg:text-8xl text-white leading-none tracking-tight mb-6">
           Chinomso
           <br />
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00e5ff] to-[#7b61ff]">
+          <span className="text-transparent bg-clip-text bg-linear-to-r from-[#00e5ff] to-[#7b61ff]">
             OKoro.
           </span>
         </h1>
