@@ -84,11 +84,11 @@ export default function Contact() {
               Prefer email?
             </p>
             <p className="font-['Syne'] font-bold text-white text-xl break-all">
-              Johnkennedychinomso@email.com
+              Johnkennedychinomso@gmail.com
             </p>
           </div>
           <a
-            href="mailto:johnkennedychinomso@email.com"
+            href="mailto:johnkennedychinomso@gmail.com"
             className="px-6 py-3 bg-[#00e5ff] text-[#080b10] text-sm font-bold tracking-widest uppercase hover:bg-white transition-colors duration-300 shrink-0"
           >
             Send Me An Email

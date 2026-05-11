@@ -9,7 +9,7 @@ export default function About() {
   return (
     <section id="about" className="relative py-32 px-6 overflow-hidden">
       {/* Accent line */}
-      <div className="absolute left-0 top-0 w-px h-full bg-gradient-to-b from-transparent via-[#00e5ff]/20 to-transparent" />
+      <div className="absolute left-0 top-0 w-px h-full bg-linear-to-b from-transparent via-[#00e5ff]/20 to-transparent" />
 
       <div className="max-w-6xl mx-auto">
         {/* Section label */}
