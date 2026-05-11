@@ -99,7 +99,7 @@ export default function Contact() {
         <div className="mt-24 pt-8 border-t border-[#1e2a38] flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-xs text-[#4d6072] tracking-wider">
             Designed & Built by{" "}
-            <span className="text-[#00e5ff]"> Chinomso Okoro</span>
+            <span className="text-[#00e5ff] tracking-widest"> CHUKWUNOMSO</span>
           </p>
           <p className="text-xs text-[#4d6072] tracking-wider">
             © {new Date().getFullYear()} — All rights reserved
