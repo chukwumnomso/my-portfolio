@@ -1,4 +1,5 @@
 import ecommerce from "../assets/ecommerce.png";
+import githubFinder from "../assets/githubfinder.png";
 
 const projects = [
   {
@@ -7,9 +8,20 @@ const projects = [
     image: ecommerce,
     description:
       "A full-featured e-commerce storefront with user authentication, real products, cart, checkout flow, and a Supabase backend. Built with React and Tailwind CSS. Focused on clean UI and smooth user experience.",
-    tags: ["React", "Tailwind", "JavaScript", "Supabase"],
+    tags: ["React", "Tailwind", "JavaScript", "Supabase", "Vite"],
     live: "https://shopwillstore.vercel.app",
     github: "https://github.com/chukwumnomso/shopwill-V2",
+    featured: true,
+  },
+  {
+    number: "02",
+    title: "GitHub Repo finder",
+    image: githubFinder,
+    description:
+      "A developer tool that lets you search any GitHub username and instantly view their profile stats, top repositories sorted by stars, programming languages and followers. Built with React and the GitHub REST API.",
+    tags: ["React", "Tailwind", "JavaScript", "GitHub API", "Vite"],
+    live: "https://githubrepo-finder.vercel.app",
+    github: "https://github.com/chukwumnomso/github-finder",
     featured: true,
   },
 ];
