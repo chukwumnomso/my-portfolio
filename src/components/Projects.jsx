@@ -51,7 +51,7 @@ Backend is live: products, inventory, and customer data are stored in Supabase w
     title: "Fationsense Admin Dashboard",
     image: fationsenseAdmin,
     description: `A standalone admin dashboard built for managing a streetwear brand's operations. Built as a portfolio project to demonstrate real-time data and secure admin patterns.
-Built with Next.js 14 and Supabase Realtime. The dashboard displays live orders, revenue, customers, inventory, newsletter subscribers, and contact messages — all updating instantly without refresh.
+Built with React and Supabase Realtime. The dashboard displays live orders, revenue, customers, inventory, newsletter subscribers, and contact messages — all updating instantly without refresh.
 Key features:
 •  Dark Mode
 •  Live stats with 7-day revenue chart
