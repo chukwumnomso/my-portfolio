@@ -1,6 +1,7 @@
 import ecommerce from "../assets/ecommerce.png";
 import githubFinder from "../assets/githubfinder.png";
-
+import fationsense from "../assets/fationsense_store_front.png";
+import fationsenseAdmin from "../assets/fationsense_admin.png";
 const projects = [
   {
     number: "01",
@@ -22,6 +23,48 @@ const projects = [
     tags: ["React", "Tailwind", "JavaScript", "GitHub API", "Vite"],
     live: "https://githubrepo-finder.vercel.app",
     github: "https://github.com/chukwumnomso/github-finder",
+    featured: true,
+  },
+  {
+    number: "03",
+    title: "Fationsense",
+    image: fationsense,
+    description: `A complete e-commerce storefront for a Lagos-based streetwear label, built as a portfolio project. Frontend and backend fully integrated.
+Built with Next.js 14 + Supabase (Postgres, Auth, Storage). Features product catalog with variants, image galleries, cart, and checkout UI. I created 6 original house labels — PREDATOR, NOIR, CULTURE, STREET, ESSENTIALS, VAULT — to keep the brand legally clean.
+Backend is live: products, inventory, and customer data are stored in Supabase with Row Level Security. Google OAuth is wired up, images served from cloudinary and url stored in supabase. Designed mobile-first for Nigerian networks, with Naira pricing and Paystack-ready checkout flow.
+`,
+
+    tags: [
+      "Next.js",
+      "Tailwind",
+      "JavaScript",
+      "Supabase",
+      "Vercel",
+      "Framer Motion",
+    ],
+    live: "https://fationsense.vercel.app",
+    github: "https://github.com/chukwumnomso/fationsense",
+    featured: true,
+  },
+  {
+    number: "04",
+    title: "Fationsense Admin Dashboard",
+    image: fationsenseAdmin,
+    description: `A standalone admin dashboard built for managing a streetwear brand's operations. Built as a portfolio project to demonstrate real-time data and secure admin patterns.
+Built with Next.js 14 and Supabase Realtime. The dashboard displays live orders, revenue, customers, inventory, newsletter subscribers, and contact messages — all updating instantly without refresh.
+Key features:
+•  Dark Mode
+•  Live stats with 7-day revenue chart
+•  Low-stock alerts and inventory management
+•  Customer management with Google OAuth integration
+•  Role-based access: full admin vs view-only mode (visitors can log in but can't delete/edit)
+•  Row Level Security policies protecting all tables
+•  Glass-morphism UI, fully responsive
+I solved Supabase Realtime limitations on views by using direct table counts with head: true for performance. Authentication auto-creates customer profiles via Postgres trigger.
+,`,
+    tags: ["React", "Tailwind", "JavaScript", "Supabase", "Vite"],
+    live: "https://fationsense-admin.vercel.app",
+    github: "https://github.com/chukwumnomso/fationsense-admin",
     featured: true,
   },
 ];
@@ -72,7 +115,7 @@ export default function Projects() {
                   className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700 opacity-70 group-hover:opacity-100"
                 />
                 {/* Overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t from-[#0d1117] via-[#0d1117]/20 to-transparent" />
+                <div className="absolute inset-0 bg-linear-to-t from-[#0d1117] via-[#0d1117]/20 to-transparent" />
                 {project.featured && (
                   <span className="absolute top-4 right-4 text-[10px] px-2 py-0.5 border border-[#00e5ff]/30 text-[#00e5ff] tracking-widest uppercase bg-[#0d1117]/80">
                     Featured
